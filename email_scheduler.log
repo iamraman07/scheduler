@@ -1,196 +1,113 @@
-2025-05-08 08:15:52,354 - DEBUG - Looking up time zone info from registry
-2025-05-08 08:15:52,379 - INFO - Scheduler started
-2025-05-08 08:15:52,379 - DEBUG - Looking for jobs to run
-2025-05-08 08:15:52,379 - DEBUG - No jobs; waiting until a job is added
-2025-05-08 08:15:52,428 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.20.10.2:5000
-2025-05-08 08:15:52,428 - INFO - [33mPress CTRL+C to quit[0m
-2025-05-08 08:15:52,428 - INFO -  * Restarting with stat
-2025-05-08 08:15:53,166 - DEBUG - Looking up time zone info from registry
-2025-05-08 08:15:53,199 - INFO - Scheduler started
-2025-05-08 08:15:53,199 - DEBUG - Looking for jobs to run
-2025-05-08 08:15:53,199 - DEBUG - No jobs; waiting until a job is added
-2025-05-08 08:15:53,236 - WARNING -  * Debugger is active!
-2025-05-08 08:15:53,239 - INFO -  * Debugger PIN: 125-670-686
-2025-05-08 08:16:41,539 - DEBUG - Looking up time zone info from registry
-2025-05-08 08:16:41,547 - INFO - Scheduler started
-2025-05-08 08:16:41,551 - DEBUG - Looking for jobs to run
-2025-05-08 08:16:41,551 - DEBUG - No jobs; waiting until a job is added
-2025-05-08 08:16:41,583 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.20.10.2:5000
-2025-05-08 08:16:41,583 - INFO - [33mPress CTRL+C to quit[0m
-2025-05-08 08:16:41,591 - INFO -  * Restarting with stat
-2025-05-08 08:16:42,303 - DEBUG - Looking up time zone info from registry
-2025-05-08 08:16:42,313 - INFO - Scheduler started
-2025-05-08 08:16:42,315 - DEBUG - Looking for jobs to run
-2025-05-08 08:16:42,315 - DEBUG - No jobs; waiting until a job is added
-2025-05-08 08:16:42,328 - WARNING -  * Debugger is active!
-2025-05-08 08:16:42,328 - INFO -  * Debugger PIN: 125-670-686
-2025-05-08 08:17:53,943 - INFO -  * Detected change in 'c:\\Users\\Raman\\Downloads\\EmailSchedulerPro (1)\\EmailSchedulerPro\\app.py', reloading
-2025-05-08 08:17:54,001 - INFO -  * Restarting with stat
-2025-05-08 08:17:54,736 - DEBUG - Looking up time zone info from registry
-2025-05-08 08:17:54,750 - INFO - Scheduler started
-2025-05-08 08:17:54,750 - DEBUG - Looking for jobs to run
-2025-05-08 08:17:54,750 - DEBUG - No jobs; waiting until a job is added
-2025-05-08 08:17:54,767 - WARNING -  * Debugger is active!
-2025-05-08 08:17:54,767 - INFO -  * Debugger PIN: 125-670-686
-2025-05-08 08:18:11,785 - INFO - 127.0.0.1 - - [08/May/2025 08:18:11] "GET / HTTP/1.1" 200 -
-2025-05-08 08:18:11,892 - INFO - 127.0.0.1 - - [08/May/2025 08:18:11] "GET /static/css/custom.css HTTP/1.1" 200 -
-2025-05-08 08:18:12,023 - INFO - 127.0.0.1 - - [08/May/2025 08:18:12] "GET /static/js/main.js HTTP/1.1" 200 -
-2025-05-08 08:18:13,021 - INFO - 127.0.0.1 - - [08/May/2025 08:18:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2025-05-08 08:20:18,284 - INFO - Added job "405ad97e-d115-4224-9e2e-df34f596fc8b" to job store "default"
-2025-05-08 08:20:18,284 - DEBUG - Looking for jobs to run
-2025-05-08 08:20:18,284 - INFO - 127.0.0.1 - - [08/May/2025 08:20:18] "[32mPOST /schedule HTTP/1.1[0m" 302 -
-2025-05-08 08:20:18,284 - DEBUG - Next wakeup is due at 2025-05-08 08:22:12+05:30 (in 113.715894 seconds)
-2025-05-08 08:20:18,292 - INFO - 127.0.0.1 - - [08/May/2025 08:20:18] "GET / HTTP/1.1" 200 -
-2025-05-08 08:20:18,539 - INFO - 127.0.0.1 - - [08/May/2025 08:20:18] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
-2025-05-08 08:20:18,613 - INFO - 127.0.0.1 - - [08/May/2025 08:20:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
-2025-05-08 08:20:32,171 - INFO - 127.0.0.1 - - [08/May/2025 08:20:32] "GET /history HTTP/1.1" 200 -
-2025-05-08 08:20:32,380 - INFO - 127.0.0.1 - - [08/May/2025 08:20:32] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
-2025-05-08 08:20:32,416 - INFO - 127.0.0.1 - - [08/May/2025 08:20:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
-2025-05-08 08:20:32,498 - INFO - 127.0.0.1 - - [08/May/2025 08:20:32] "GET /jobs HTTP/1.1" 200 -
-2025-05-08 08:21:02,427 - INFO - 127.0.0.1 - - [08/May/2025 08:21:02] "GET /jobs HTTP/1.1" 200 -
-2025-05-08 08:21:32,746 - INFO - 127.0.0.1 - - [08/May/2025 08:21:32] "GET /jobs HTTP/1.1" 200 -
-2025-05-08 08:22:02,432 - INFO - 127.0.0.1 - - [08/May/2025 08:22:02] "GET /jobs HTTP/1.1" 200 -
-2025-05-08 08:22:12,006 - DEBUG - Looking for jobs to run
-2025-05-08 08:22:12,006 - INFO - Running job "405ad97e-d115-4224-9e2e-df34f596fc8b (trigger: date[2025-05-08 08:22:12 IST], next run at: 2025-05-08 08:22:12 IST)" (scheduled at 2025-05-08 08:22:12+05:30)
-2025-05-08 08:22:12,006 - INFO - Removed job 405ad97e-d115-4224-9e2e-df34f596fc8b
-2025-05-08 08:22:12,006 - DEBUG - No jobs; waiting until a job is added
-2025-05-08 08:22:16,678 - INFO - Email sent successfully to ramandeepkaur.linkedin@gmail.com with subject 'working?'
-2025-05-08 08:22:16,678 - INFO - Job "405ad97e-d115-4224-9e2e-df34f596fc8b (trigger: date[2025-05-08 08:22:12 IST], next run at: 2025-05-08 08:22:12 IST)" executed successfully
-2025-05-08 08:22:32,736 - INFO - 127.0.0.1 - - [08/May/2025 08:22:32] "GET /jobs HTTP/1.1" 200 -
-2025-05-08 08:22:38,943 - INFO - 127.0.0.1 - - [08/May/2025 08:22:38] "GET /history HTTP/1.1" 200 -
-2025-05-08 08:22:39,233 - INFO - 127.0.0.1 - - [08/May/2025 08:22:39] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
-2025-05-08 08:22:39,266 - INFO - 127.0.0.1 - - [08/May/2025 08:22:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
-2025-05-08 08:22:39,583 - INFO - 127.0.0.1 - - [08/May/2025 08:22:39] "GET /jobs HTTP/1.1" 200 -
-2025-05-08 08:23:09,288 - INFO - 127.0.0.1 - - [08/May/2025 08:23:09] "GET /jobs HTTP/1.1" 200 -
-2025-05-08 08:23:39,594 - INFO - 127.0.0.1 - - [08/May/2025 08:23:39] "GET /jobs HTTP/1.1" 200 -
-2025-05-08 08:24:09,278 - INFO - 127.0.0.1 - - [08/May/2025 08:24:09] "GET /jobs HTTP/1.1" 200 -
-2025-05-08 08:24:39,589 - INFO - 127.0.0.1 - - [08/May/2025 08:24:39] "GET /jobs HTTP/1.1" 200 -
-2025-05-08 08:25:09,284 - INFO - 127.0.0.1 - - [08/May/2025 08:25:09] "GET /jobs HTTP/1.1" 200 -
-2025-05-08 08:26:20,932 - INFO - Added job "74dc049f-fbd1-4305-b2dc-155383dea8f1" to job store "default"
-2025-05-08 08:26:20,932 - DEBUG - Looking for jobs to run
-2025-05-08 08:26:20,934 - INFO - 127.0.0.1 - - [08/May/2025 08:26:20] "[32mPOST /schedule HTTP/1.1[0m" 302 -
-2025-05-08 08:26:20,934 - DEBUG - Next wakeup is due at 2025-05-08 08:28:00+05:30 (in 99.065503 seconds)
-2025-05-08 08:26:21,247 - INFO - 127.0.0.1 - - [08/May/2025 08:26:21] "GET / HTTP/1.1" 200 -
-2025-05-08 08:26:21,570 - INFO - 127.0.0.1 - - [08/May/2025 08:26:21] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
-2025-05-08 08:26:21,570 - INFO - 127.0.0.1 - - [08/May/2025 08:26:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
-2025-05-08 08:37:40,825 - DEBUG - Looking up time zone info from registry
-2025-05-08 08:37:40,857 - INFO - Scheduler started
-2025-05-08 08:37:40,857 - DEBUG - Looking for jobs to run
-2025-05-08 08:37:40,857 - DEBUG - No jobs; waiting until a job is added
-2025-05-08 08:37:40,939 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.20.10.2:5000
-2025-05-08 08:37:40,947 - INFO - [33mPress CTRL+C to quit[0m
-2025-05-08 08:37:40,977 - INFO -  * Restarting with watchdog (windowsapi)
-2025-05-08 08:37:41,720 - DEBUG - Looking up time zone info from registry
-2025-05-08 08:37:41,728 - INFO - Scheduler started
-2025-05-08 08:37:41,728 - DEBUG - Looking for jobs to run
-2025-05-08 08:37:41,728 - DEBUG - No jobs; waiting until a job is added
-2025-05-08 08:37:41,745 - WARNING -  * Debugger is active!
-2025-05-08 08:37:41,749 - INFO -  * Debugger PIN: 108-519-396
-2025-05-08 08:37:41,827 - INFO - 127.0.0.1 - - [08/May/2025 08:37:41] "GET / HTTP/1.1" 200 -
-2025-05-08 08:37:41,898 - INFO - 127.0.0.1 - - [08/May/2025 08:37:41] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
-2025-05-08 08:37:41,928 - INFO - 127.0.0.1 - - [08/May/2025 08:37:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
-2025-05-08 08:37:42,328 - INFO - 127.0.0.1 - - [08/May/2025 08:37:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2025-05-08 08:37:46,339 - INFO - 127.0.0.1 - - [08/May/2025 08:37:46] "GET / HTTP/1.1" 200 -
-2025-05-08 08:37:46,725 - INFO - 127.0.0.1 - - [08/May/2025 08:37:46] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
-2025-05-08 08:37:46,725 - INFO - 127.0.0.1 - - [08/May/2025 08:37:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
-2025-05-08 08:37:50,304 - INFO - 127.0.0.1 - - [08/May/2025 08:37:50] "GET /history HTTP/1.1" 200 -
-2025-05-08 08:37:50,487 - INFO - 127.0.0.1 - - [08/May/2025 08:37:50] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
-2025-05-08 08:37:50,511 - INFO - 127.0.0.1 - - [08/May/2025 08:37:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
-2025-05-08 08:37:50,628 - INFO - 127.0.0.1 - - [08/May/2025 08:37:50] "GET /jobs HTTP/1.1" 200 -
-2025-05-08 08:40:36,423 - INFO - Added job "e9bd40c2-b834-425e-95bc-afd20fe5e07a" to job store "default"
-2025-05-08 08:40:36,431 - DEBUG - Looking for jobs to run
-2025-05-08 08:40:36,432 - INFO - 127.0.0.1 - - [08/May/2025 08:40:36] "[32mPOST /schedule HTTP/1.1[0m" 302 -
-2025-05-08 08:40:36,432 - DEBUG - Next wakeup is due at 2025-05-08 08:41:15+05:30 (in 38.567653 seconds)
-2025-05-08 08:40:36,439 - INFO - 127.0.0.1 - - [08/May/2025 08:40:36] "GET / HTTP/1.1" 200 -
-2025-05-08 08:40:36,673 - INFO - 127.0.0.1 - - [08/May/2025 08:40:36] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
-2025-05-08 08:40:36,765 - INFO - 127.0.0.1 - - [08/May/2025 08:40:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
-2025-05-08 08:40:47,503 - INFO - 127.0.0.1 - - [08/May/2025 08:40:47] "GET /history HTTP/1.1" 200 -
-2025-05-08 08:40:47,714 - INFO - 127.0.0.1 - - [08/May/2025 08:40:47] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
-2025-05-08 08:40:47,731 - INFO - 127.0.0.1 - - [08/May/2025 08:40:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
-2025-05-08 08:40:47,822 - INFO - 127.0.0.1 - - [08/May/2025 08:40:47] "GET /jobs HTTP/1.1" 200 -
-2025-05-08 08:41:15,002 - DEBUG - Looking for jobs to run
-2025-05-08 08:41:15,003 - INFO - Running job "e9bd40c2-b834-425e-95bc-afd20fe5e07a (trigger: date[2025-05-08 08:41:15 IST], next run at: 2025-05-08 08:41:15 IST)" (scheduled at 2025-05-08 08:41:15+05:30)
-2025-05-08 08:41:15,003 - INFO - Removed job e9bd40c2-b834-425e-95bc-afd20fe5e07a
-2025-05-08 08:41:15,003 - DEBUG - No jobs; waiting until a job is added
-2025-05-08 08:41:19,987 - INFO - Email sent successfully to ramandeepkaur.linkedin@gmail.com with subject 'working?'
-2025-05-08 08:41:19,987 - INFO - Job "e9bd40c2-b834-425e-95bc-afd20fe5e07a (trigger: date[2025-05-08 08:41:15 IST], next run at: 2025-05-08 08:41:15 IST)" executed successfully
-2025-05-08 08:41:40,183 - INFO - 127.0.0.1 - - [08/May/2025 08:41:40] "GET / HTTP/1.1" 200 -
-2025-05-08 08:41:40,315 - INFO - 127.0.0.1 - - [08/May/2025 08:41:40] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
-2025-05-08 08:41:40,445 - INFO - 127.0.0.1 - - [08/May/2025 08:41:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
-2025-05-08 08:41:40,510 - INFO - 127.0.0.1 - - [08/May/2025 08:41:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2025-05-08 08:41:55,408 - INFO - Added job "14ff6f88-a144-484f-8bf2-791c57641f97" to job store "default"
-2025-05-08 08:41:55,408 - DEBUG - Looking for jobs to run
-2025-05-08 08:41:55,408 - INFO - 127.0.0.1 - - [08/May/2025 08:41:55] "[32mPOST /schedule HTTP/1.1[0m" 302 -
-2025-05-08 08:41:55,408 - DEBUG - Next wakeup is due at 2025-05-08 08:42:40+05:30 (in 44.591831 seconds)
-2025-05-08 08:41:55,724 - INFO - 127.0.0.1 - - [08/May/2025 08:41:55] "GET / HTTP/1.1" 200 -
-2025-05-08 08:41:55,743 - INFO - 127.0.0.1 - - [08/May/2025 08:41:55] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
-2025-05-08 08:41:55,982 - INFO - 127.0.0.1 - - [08/May/2025 08:41:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
-2025-05-08 08:41:58,228 - INFO - 127.0.0.1 - - [08/May/2025 08:41:58] "GET /history HTTP/1.1" 200 -
-2025-05-08 08:41:58,426 - INFO - 127.0.0.1 - - [08/May/2025 08:41:58] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
-2025-05-08 08:41:58,451 - INFO - 127.0.0.1 - - [08/May/2025 08:41:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
-2025-05-08 08:41:58,542 - INFO - 127.0.0.1 - - [08/May/2025 08:41:58] "GET /jobs HTTP/1.1" 200 -
-2025-05-08 08:43:28,532 - DEBUG - Looking up time zone info from registry
-2025-05-08 08:43:28,541 - INFO - Scheduler started
-2025-05-08 08:43:28,543 - DEBUG - Looking for jobs to run
-2025-05-08 08:43:28,543 - DEBUG - No jobs; waiting until a job is added
-2025-05-08 08:43:28,583 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.20.10.2:5000
-2025-05-08 08:43:28,583 - INFO - [33mPress CTRL+C to quit[0m
-2025-05-08 08:43:28,599 - INFO -  * Restarting with watchdog (windowsapi)
-2025-05-08 08:43:29,384 - DEBUG - Looking up time zone info from registry
-2025-05-08 08:43:29,387 - INFO - Scheduler started
-2025-05-08 08:43:29,395 - DEBUG - Looking for jobs to run
-2025-05-08 08:43:29,395 - DEBUG - No jobs; waiting until a job is added
-2025-05-08 08:43:29,411 - WARNING -  * Debugger is active!
-2025-05-08 08:43:29,414 - INFO -  * Debugger PIN: 108-519-396
-2025-05-08 08:43:36,658 - INFO - 127.0.0.1 - - [08/May/2025 08:43:36] "GET / HTTP/1.1" 200 -
-2025-05-08 08:43:36,822 - INFO - 127.0.0.1 - - [08/May/2025 08:43:36] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
-2025-05-08 08:43:36,905 - INFO - 127.0.0.1 - - [08/May/2025 08:43:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
-2025-05-08 08:43:36,982 - INFO - 127.0.0.1 - - [08/May/2025 08:43:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2025-05-08 08:43:39,419 - INFO - 127.0.0.1 - - [08/May/2025 08:43:39] "GET /history HTTP/1.1" 200 -
-2025-05-08 08:43:39,717 - INFO - 127.0.0.1 - - [08/May/2025 08:43:39] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
-2025-05-08 08:43:39,734 - INFO - 127.0.0.1 - - [08/May/2025 08:43:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
-2025-05-08 08:43:40,050 - INFO - 127.0.0.1 - - [08/May/2025 08:43:40] "GET /jobs HTTP/1.1" 200 -
-2025-05-12 15:39:52,696 - DEBUG - Looking up time zone info from registry
-2025-05-12 15:39:52,720 - INFO - Scheduler started
-2025-05-12 15:39:52,721 - DEBUG - Looking for jobs to run
-2025-05-12 15:39:52,722 - DEBUG - No jobs; waiting until a job is added
-2025-05-12 15:39:52,768 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.20.10.2:5000
-2025-05-12 15:39:52,768 - INFO - [33mPress CTRL+C to quit[0m
-2025-05-12 15:39:52,787 - INFO -  * Restarting with watchdog (windowsapi)
-2025-05-12 15:39:53,566 - DEBUG - Looking up time zone info from registry
-2025-05-12 15:39:53,577 - INFO - Scheduler started
-2025-05-12 15:39:53,578 - DEBUG - Looking for jobs to run
-2025-05-12 15:39:53,578 - DEBUG - No jobs; waiting until a job is added
-2025-05-12 15:39:53,595 - WARNING -  * Debugger is active!
-2025-05-12 15:39:53,598 - INFO -  * Debugger PIN: 126-502-930
-2025-05-12 15:41:24,615 - DEBUG - Looking up time zone info from registry
-2025-05-12 15:41:24,627 - INFO - Scheduler started
-2025-05-12 15:41:24,629 - DEBUG - Looking for jobs to run
-2025-05-12 15:41:24,629 - DEBUG - No jobs; waiting until a job is added
-2025-05-12 15:41:24,670 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.20.10.2:5000
-2025-05-12 15:41:24,670 - INFO - [33mPress CTRL+C to quit[0m
-2025-05-12 15:41:24,673 - INFO -  * Restarting with stat
-2025-05-12 15:41:25,414 - DEBUG - Looking up time zone info from registry
-2025-05-12 15:41:25,425 - INFO - Scheduler started
-2025-05-12 15:41:25,426 - DEBUG - Looking for jobs to run
-2025-05-12 15:41:25,427 - DEBUG - No jobs; waiting until a job is added
-2025-05-12 15:41:25,443 - WARNING -  * Debugger is active!
-2025-05-12 15:41:25,447 - INFO -  * Debugger PIN: 849-630-539
+2025-05-07 14:04:12,838 - DEBUG - No explicit setting existed. Use localtime
+2025-05-07 14:04:12,840 - INFO - Scheduler started
+2025-05-07 14:04:12,840 - DEBUG - Looking for jobs to run
+2025-05-07 14:04:12,840 - DEBUG - No jobs; waiting until a job is added
+2025-05-07 14:04:13,869 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/app.py", line 42, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/workspace/templates/index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/workspace/templates/base.html", line 67, in template
+    <p class="text-muted">&copy; {% now year %} Email Scheduler | Secure Email Scheduling with Encryption</p>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'now'.
+2025-05-07 14:04:20,173 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/app.py", line 42, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/workspace/templates/index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/workspace/templates/base.html", line 67, in template
+    <p class="text-muted">&copy; {% now year %} Email Scheduler | Secure Email Scheduling with Encryption</p>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'now'.
+2025-05-07 14:04:20,585 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/app.py", line 42, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/workspace/templates/index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/workspace/templates/base.html", line 67, in template
+    <p class="text-muted">&copy; {% now year %} Email Scheduler | Secure Email Scheduling with Encryption</p>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'now'.
+2025-05-07 14:04:57,575 - DEBUG - No explicit setting existed. Use localtime
+2025-05-07 14:04:57,577 - INFO - Scheduler started
+2025-05-07 14:04:57,577 - DEBUG - Looking for jobs to run
+2025-05-07 14:04:57,577 - DEBUG - No jobs; waiting until a job is added
